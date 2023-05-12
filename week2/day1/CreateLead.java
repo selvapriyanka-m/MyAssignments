@@ -23,6 +23,7 @@ public class CreateLead {
         driver.findElement(By.id("createLeadForm_firstNameLocal")).sendKeys("Priyanka");
         driver.findElement(By.id("createLeadForm_departmentName")).sendKeys("Testing");
         driver.findElement(By.id("createLeadForm_description")).sendKeys("Selenium Learning");
+        driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("7904341989");
         driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("selvapriyanka94@gmail.com");
         WebElement state=driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId"));
         Select stateOption = new Select(state);
